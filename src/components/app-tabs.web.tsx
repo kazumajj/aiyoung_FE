@@ -22,10 +22,19 @@ export default function AppTabs() {
       <TabList asChild>
         <CustomTabList>
           <TabTrigger name="home" href="/" asChild>
-            <TabButton>Home</TabButton>
+            <TabButton>首页</TabButton>
           </TabTrigger>
-          <TabTrigger name="explore" href="/explore" asChild>
-            <TabButton>Explore</TabButton>
+          <TabTrigger name="report" href="/report" asChild>
+            <TabButton>报告</TabButton>
+          </TabTrigger>
+          <TabTrigger name="mall" href="/mall" asChild>
+            <TabButton>商城</TabButton>
+          </TabTrigger>
+          <TabTrigger name="community" href="/community" asChild>
+            <TabButton>社区</TabButton>
+          </TabTrigger>
+          <TabTrigger name="mine" href="/mine" asChild>
+            <TabButton>我的</TabButton>
           </TabTrigger>
         </CustomTabList>
       </TabList>
